@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // berguna untuk reload
 
 const AuthLayouts = (props) => {
   const { children, title, type } = props;
@@ -32,7 +32,7 @@ const Navigation = ({ type }) => {
     return (
       <p className="text-sm mt-5 text-center">
         Already have an account?{" "}
-        <Link className="font-bold text-blue-600" to="/login">
+        <Link className="font-bold text-blue-600" to="/">
           Login
         </Link>
       </p>
